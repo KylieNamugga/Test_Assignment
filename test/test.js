@@ -16,5 +16,14 @@ describe('Testing our multiplication',() =>{
         assert.equal(multiply(3, 3), 9);
     });
 
+    it('should multiply 4 and 4 to get 16', () => {
+        assert.equal(multiply(4, 4), 16);
+    });
+
+    it('should multiply 23 and 45 to get 1035', () => {
+        assert.equal(multiply(23, 45), 1035);
+    });
+
+
 
 })
